@@ -16,5 +16,8 @@ namespace Math.Tests
 
         [Fact]
         public void Should_Multiply() => Assert.Equal(4, _service.MultiplyOfDivide(2, 2, true));
+
+        [Fact]
+        public void Should_Divide() => Assert.Equal(2, _service.MultiplyOfDivide(4, 2, false));
     }
 }
